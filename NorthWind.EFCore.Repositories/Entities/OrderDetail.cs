@@ -1,5 +1,6 @@
 ﻿namespace NorthWind.EFCore.Repositories.Entities
 {
+/* The OrderDetail class has a one-to-one relationship with the Order class */
     public class OrderDetail
     {
         public int OrderId { get; set; }
