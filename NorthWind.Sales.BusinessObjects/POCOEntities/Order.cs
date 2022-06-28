@@ -1,6 +1,6 @@
 namespace NorthWind.Sales.BusinessObjects.POCOEntities
 {
-    
+
     public class Order
     {
         public int Id { get; set; }

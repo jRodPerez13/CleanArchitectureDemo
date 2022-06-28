@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Presenters\" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NorthWind.Entities\NorthWind.Entities.csproj" />
+    <ProjectReference Include="..\NorthWind.Sales.BusinessObjects\NorthWind.Sales.BusinessObjects.csproj" />
   </ItemGroup>
 
 </Project>
