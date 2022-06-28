@@ -2,11 +2,11 @@
 {
     public class CreateOrderInteractor : ICreateOrderInputPort
     {
-       /* Creating a readonly variable for the output port and the repository. */
+        /* Creating a readonly variable for the output port and the repository. */
         readonly ICreateOrderOutputPort OutputPort;
         readonly INorthWindSalesCommandsRepository Repository;
 
-       /* The constructor for the class. */
+        /* The constructor for the class. */
         public CreateOrderInteractor(ICreateOrderOutputPort outputPort,
             INorthWindSalesCommandsRepository repository)
         {
