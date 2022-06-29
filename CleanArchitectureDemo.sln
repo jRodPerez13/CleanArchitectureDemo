@@ -25,13 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.EFCore.Repositori
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", "{4A6875B2-361A-410F-AAA7-C836DDD1D164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Presenters", "NorthWind.Sales.Presenters\NorthWind.Sales.Presenters.csproj", "{CF28903C-6E4D-4923-BD34-7824493CBDDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Sales.Presenters", "NorthWind.Sales.Presenters\NorthWind.Sales.Presenters.csproj", "{CF28903C-6E4D-4923-BD34-7824493CBDDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{3AAEFD1A-89CA-41C1-8733-773A8DAC0CF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Controllers", "NorthWind.Sales.Controllers\NorthWind.Sales.Controllers.csproj", "{DFD78B3D-86F2-49E0-942A-A1140397A664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Sales.Controllers", "NorthWind.Sales.Controllers\NorthWind.Sales.Controllers.csproj", "{DFD78B3D-86F2-49E0-942A-A1140397A664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.IoC", "NorthWind.Sales.IoC\NorthWind.Sales.IoC.csproj", "{B5910F94-FBB7-45FD-8906-1CF326ADCB5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Sales.IoC", "NorthWind.Sales.IoC\NorthWind.Sales.IoC.csproj", "{B5910F94-FBB7-45FD-8906-1CF326ADCB5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIs", "UIs", "{1F6F5670-CC8D-45EF-8BBD-2541EAF047F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.WebApi", "NorthWind.Sales.WebApi\NorthWind.Sales.WebApi.csproj", "{45E0AA90-5ADA-4F2F-8203-126E94B89001}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{B5910F94-FBB7-45FD-8906-1CF326ADCB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5910F94-FBB7-45FD-8906-1CF326ADCB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5910F94-FBB7-45FD-8906-1CF326ADCB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E0AA90-5ADA-4F2F-8203-126E94B89001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E0AA90-5ADA-4F2F-8203-126E94B89001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E0AA90-5ADA-4F2F-8203-126E94B89001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E0AA90-5ADA-4F2F-8203-126E94B89001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +91,8 @@ Global
 		{3AAEFD1A-89CA-41C1-8733-773A8DAC0CF1} = {32CBFAFC-2013-476A-AF55-46FB889111AE}
 		{DFD78B3D-86F2-49E0-942A-A1140397A664} = {3AAEFD1A-89CA-41C1-8733-773A8DAC0CF1}
 		{B5910F94-FBB7-45FD-8906-1CF326ADCB5E} = {32CBFAFC-2013-476A-AF55-46FB889111AE}
+		{1F6F5670-CC8D-45EF-8BBD-2541EAF047F1} = {09CBB2D1-9712-40ED-BA91-01F185FCD1FB}
+		{45E0AA90-5ADA-4F2F-8203-126E94B89001} = {1F6F5670-CC8D-45EF-8BBD-2541EAF047F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F1E32F3-D9A6-4E05-9577-D56E6CDE59A5}

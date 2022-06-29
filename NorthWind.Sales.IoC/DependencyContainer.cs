@@ -7,6 +7,7 @@ namespace NorthWind.Sales.IoC
             IConfiguration configuration,
             string connectionStringName)
         {
+            /* A fluent interface. */
             services.AddRepositories(configuration, connectionStringName)
                 .AddUseCasesServices()
                 .AddPresenters()
