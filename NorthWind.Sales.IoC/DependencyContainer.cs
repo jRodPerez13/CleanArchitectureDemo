@@ -2,16 +2,17 @@ namespace NorthWind.Sales.IoC
 {
     public static class DependencyContainer
     {
-        public static IServiceCollection AddNorthWindSAlesseServices(
-            this IServiceCollection services,
-            IConfiguration configuration,
-            string connectionStringName)
+        public static IServiceCollection AddNorthWindSalesServices(
+             this IServiceCollection services,
+             IConfiguration configuration,
+             string connectionStringName)
         {
-            /* A fluent interface. */
-            services.AddRepositories(configuration, connectionStringName)
+            services
+                .AddRepositories(configuration, connectionStringName)
                 .AddUseCasesServices()
                 .AddPresenters()
-                .AddNorthWindSAlesControllers();
+                .AddNorthWindSalesControllers();
+
             return services;
         }
     }

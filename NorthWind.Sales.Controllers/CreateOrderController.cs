@@ -5,12 +5,8 @@
         readonly ICreateOrderInputPort InputPort;
         readonly ICreateOrderPresenter Presenter;
         public CreateOrderController(ICreateOrderInputPort inputPort,
-            ICreateOrderPresenter presenter)
-        {
-            InputPort = inputPort;
-            Presenter = presenter;
-        }
-
+            ICreateOrderPresenter presenter) =>
+            (InputPort, Presenter) = (inputPort, presenter);
 
         /// <summary>
         /// > The function creates an order by handling the order and returning the order id

@@ -8,7 +8,7 @@ namespace NorthWind.EFCore.Repositories.DataContexts
             DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=(localdb)\mssqllocaldb;Database=NorthWindDB;Trusted_Connection=True;");
+                @"Server=(localdb)\\mssqllocaldb;Database=NorthWindDB;Trusted_Connection=True;");
         }
 
         /* This is how you tell Entity Framework that you want to map the Order and OrderDetail classes
